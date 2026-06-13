@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-sombras.css">
+    <title>Formulario de alumnos</title>
+</head>
+<body>
+    <h1>Formulario De Registro De Alumnos</h1>
+    
+    <br>
+    <br>
+    
+    <form>
+        <h2>Datos del alumno</h2>
+
+        <br>
+        <br>
+        
+        <div id="nombre_alumno">
+        <label for="nombre">Nombre del alumno:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej. Felipe Abdiel">
+        </div>
+        <br>
+        <br>
+
+        <div>
+        <label for="apaterno">Apellido paterno:</label>
+        <input type="text" id="apaterno" name="apaterno" placeholder="Ej. Chavez">
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+        <label for="amaterno">Apellido materno:</label>
+        <input type="text" id="amaterno" name="amaterno" placeholder="Ej. Bazaldua">
+        </div>
+
+        <br>
+        <br>
+
+        <label for="Curp">Curp:</label>
+        <input type="text" id="curp" name="curp" placeholder="Ej. FACB08090HNLHZLA0908">
+
+        <br>
+        <br>
+
+        <label for="nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="nacimiento" name="nacimiento">
+
+        <br>
+        <br>
+
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo">
+            <option value="M">Masculino</option>
+            <option value="F">Femenino</option>
+            <option value="X">X</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="Estado civil">Estado civil:</label>
+        <select id="estadocivil" name="estadocivil">
+            <option value="Casado">Casado/a</option>
+            <option value="Divorciado">Divorciado/a</option>
+            <option value="Soltero">Soltero/a</option>
+            <option value="Viudo">Viudo/a</option>
+        </select>
+        
+
+        <br>
+        <br>
+
+        <h2>Contacto</h2>
+
+        <br>
+        <br>
+
+        <div id="telefonos">
+        <label for="Tel">Teléfonos:</label>
+        <input type="tel" id="tel" name="tel" placeholder="Ej. 8164873243">
+        </div>
+
+        <br>
+        <br>
+
+        <div id="celulares">
+        <label for="cel">Teléfonos celulares:</label>
+        <input type="tel" id="cel" name="cel" placeholder="Ej. 8126161154">
+        </div>
+
+        <br>
+        <br>
+
+        <div id="email">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Ej. al45756@un.edu.mx">
+        </div>
+        
+        <br>
+        <br>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="dirección" name="dirección" placeholder="Ej. Calle y numero">
+
+        <br>
+        <br>
+
+        <div id="colonia">
+        <label for="colonia">Colonia:</label>
+        <input type="text" id="colonia" name="colonia" placeholder="Ej. Las hadas 3er sector">
+        </div>
+
+        <br>
+        <br>
+
+        <div class="municipio">
+        <label for="municipio">Municipio:</label>
+        <input type="text" id="municipio" name="municipio" placeholder="Ej. San Nicólas de Los Gárza">
+        </div>
+        <br>
+        <br>
+
+        <div class="municipio">
+        <label for="Cp">Cp:</label>
+        <input type="number" id="cp" name="cp" placeholder="Ej. 69700">
+        </div>
+        <br>
+        <br>
+
+        <label for="estado">ID Estado:</label>
+        <select id="estado" name="estado">
+            <option value="">Selecciona un estado</option>
+            <option value="ags">Aguascalientes</option>
+            <option value="BC">Baja California </option>
+            <option value="BCS">Baja California sur</option>
+            <option value="Camp">Campeche</option>
+            <option value="Chis">Chiapas</option>
+            <option value="Chih">Chihuahua</option>
+            <option value="CDMX">Ciudad de Mexico</option>
+            <option value="Coah">Coahuila</option>
+            <option value="Col">Colima</option>
+            <option value="Dgo">Durango</option>
+            <option value="Gto">Guanajuato</option>
+            <option value="Gro">Guerrero</option>
+            <option value="Hgo">Hidalgo</option>
+            <option value="Jal">Jalisco</option>
+            <option value="Edomex">México</option>
+            <option value="Mich">Michoacán</option>
+            <option value="Mor">Morelos</option>
+            <option value="Nay">Nayarit</option>
+            <option value="NL">Nuevo León</option>
+            <option value="Oax">Oaxaca</option>
+            <option value="Pue">Puebla</option>
+            <option value="Qro">Queretaro</option>
+            <option value="Q Roo">Quintana Roo</option>
+            <option value="SLP">San Luis Potosí</option>
+            <option value="Sin">Sinaloa</option>
+            <option value="Son">Sonora</option>
+            <option value="Tab">Tabasco</option>
+            <option value="Tamps">Tamauilipas</option>
+            <option value="Tlax">Tlaxcala</option>
+            <option value="Ver">Veracruz</option>
+            <option value="Yuc">Yucatán</option>
+            <option value="Zac">Zacatecas</option>
+        </select>
+
+        <br>
+        <br>
+
+         <label for="Extranjero">Es extranjero:</label>
+        <select id="extranjero" name="extranjero">
+            <option value="Si">Si</option>
+            <option value="No">No</option>
+        </select>
+
+        <br>
+        <br>
+
+        <h2>Escolaridad</h2>
+
+        <br>
+        <br>
+
+        <label for="Escuela">Escuela de procedencia:</label>
+        <input type="text" id="cp" name="cp" placeholder="Ej. Preparatoria #6">
+
+        <br>
+        <br>
+
+        <label for="estadoPrep">Estado donde estudió preparatoria:</label>
+        <select id="estadoPrep" name="estadoPrep">
+            <option value="">Selecciona un estado</option>
+            <option value="ags">Aguascalientes</option>
+            <option value="BC">Baja California </option>
+            <option value="BCS">Baja California sur</option>
+            <option value="Camp">Campeche</option>
+            <option value="Chis">Chiapas</option>
+            <option value="Chih">Chihuahua</option>
+            <option value="CDMX">Ciudad de Mexico</option>
+            <option value="Coah">Coahuila</option>
+            <option value="Col">Colima</option>
+            <option value="Dgo">Durango</option>
+            <option value="Gto">Guanajuato</option>
+            <option value="Gro">Guerrero</option>
+            <option value="Hgo">Hidalgo</option>
+            <option value="Jal">Jalisco</option>
+            <option value="Edomex">México</option>
+            <option value="Mich">Michoacán</option>
+            <option value="Mor">Morelos</option>
+            <option value="Nay">Nayarit</option>
+            <option value="NL">Nuevo León</option>
+            <option value="Oax">Oaxaca</option>
+            <option value="Pue">Puebla</option>
+            <option value="Qro">Queretaro</option>
+            <option value="Q Roo">Quintana Roo</option>
+            <option value="SLP">San Luis Potosí</option>
+            <option value="Sin">Sinaloa</option>
+            <option value="Son">Sonora</option>
+            <option value="Tab">Tabasco</option>
+            <option value="Tamps">Tamauilipas</option>
+            <option value="Tlax">Tlaxcala</option>
+            <option value="Ver">Veracruz</option>
+            <option value="Yuc">Yucatán</option>
+            <option value="Zac">Zacatecas</option>
+        </select>
+
+        <br>
+        <br>
+
+        <h2>Carrera</h2>
+
+        <br>
+        <br>
+
+        <div class="carrera">
+        <label for="carrera">Carrera ID:</label>
+        <select id="carrera" name="carrera">
+            <option value="">Seleccione una opción</option>
+            <option value="IngElec">Ingeniero en tecnologías electrónicas</option>
+            <option value="IngMecElec">Ingeniero mecánico electricista</option>
+            <option value="IngMecAdm">Ingeniero mecánico administrador</option>
+            <option value="IngIndAdm">Ingeniero industrial administrador</option>
+            <option value="ConPubAud">Contador público y auditor</option>
+            <option value="LicBanFin">Licenciado en banca y finanzas</option>
+            <option value="LicAdmFin">Licenciado en administración financiera</option>
+            <option value="LicAdmEmp">Licenciado en administración de empresas</option>
+            <option value="LicRelInd">Licenciado en relaciones industriales</option>
+            <option value="LicMer">Licenciado en mercadotecnia</option>
+            <option value="LicAdmTecInf">Licenciado en administracion de técnologias de información</option>
+            <option value="IngTecSof">Ingeniería en tecnologías de información/Desarrollo de Software</option>
+            <option value="IngTecCom">Ingeniería en tecnologías de información/Comunicaciones</option>
+            <option value="IngIndSis">Ingeniero industrial y de sistemas</option>
+            <option value="Psic">Psicología</option>
+            <option value="CieJur">Ciencias jurídicas</option>
+        </select>
+        </div>
+
+        <br>
+        <br>
+
+         <label for="sistema">Sistema ID educativo:</label>
+        <select id="sistema" name="sistema">
+            <option value="activo">Activo</option>
+            <option value="Inactivo">Inactivo</option>
+        </select>
+
+        <br>
+        <br>
+
+        
+        <label for="tetra">Tetramestre:</label>
+        <input type="radio" name="tetra1" id="tetra1"> 1ro
+
+        <input type="radio" name="tetra2" id="tetra2"> 2do
+
+        
+        <input type="radio" name="tetra3" id="tetra3"> 3ro
+
+        
+        <input type="radio" name="tetra4" id="tetra4"> 4to
+
+        
+        <input type="radio" name="tetra5" id="tetra5"> 5to
+
+        
+        <input type="radio" name="tetra6" id="tetra6"> 6to
+
+        
+        <input type="radio" name="tetra7" id="tetra7"> 7mo
+
+        
+        <input type="radio" name="tetra8" id="tetra8"> 8vo
+
+        
+        <input type="radio" name="tetra9" id="tetra9"> 9no
+
+        
+        <input type="radio" name="tetra10" id="tetra10">10mo
+
+        
+        <br>
+        <br>
+
+        <label for="ingreso">Fecha de ingreso:</label>
+        <input type="date" id="ingreso" name="ingreso">
+
+        <br>
+        <br>
+
+         <label for="status">Status:</label>
+         <input type="radio" name="inscrito" id="inscrito"> Inscrito
+         <input type="radio" name="aspirante" id="aspirante"> Aspirante
+         <input type="radio" name="titulado" id="titulado"> Titulado
+         <input type="radio" name="egresado" id="egresado"> Egresado
+         <input type="radio" name="bajtem" id="bajtem"> Baja temporal
+         <input type="radio" name="bajdif" id="bajdif"> Baja definitiva    
+
+        <br>
+        <br>
+
+        <h2>Empresa</h2>
+
+        <br>
+        <br>
+
+        <div class="carrera">
+        <label for="empresa">Empresa:</label>
+        <select id="empresa" name="empresa">
+            <option value="ninguna">Ninguna</option>
+            <option value="pepsi">Nestlé</option>
+            <option value="coca">Grupo Coca Cola</option>
+            <option value="pepsi">PepsiCo</option>
+            <option value="Procter">Procter & Gamble</option>
+            <option value="uni">Unilever</option>
+            <option value="Heineken">Heineken</option>
+            <option value="Bimbo">Grupo Bimbo</option>
+            <option value="micro">Microsoft</option>
+            <option value="Len">Lenovo</option>
+            <option value="marinela">Marinela</option>
+        </select>
+        </div>
+
+        <br>
+        <br>
+
+        <label for="idempresa">ID empresa:</label>
+        <input type="text" id="idempresa" name="idempresa" placeholder="EMP56789">
+
+        <br>
+        <br>
+
+        <label for="extempresa">Ext empresa:</label>
+        <input type="text" id="empresa" name="empresa" placeholder="Ej. 103">
+
+        <br>
+        <br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+    </form>
+
+</body>
+</html>
